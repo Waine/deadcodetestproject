@@ -9,6 +9,7 @@ public class Class2 {
     protected int j;
     int k;
     public int l;
+    private int m;
 
     public int getI() {
         return i;
