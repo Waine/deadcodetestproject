@@ -18,7 +18,7 @@ public class Class1 {
         this.i = i;
     }
 
-    public static int compare(int v1, int v2) {
+    public static int compare(int v1, int v2, int v3) {
         return v1 < v2 ? -1 : (v1 > v2 ? 1 : 0);
     }
 
