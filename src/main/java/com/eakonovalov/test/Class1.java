@@ -26,6 +26,7 @@ public class Class1 {
         int value = 11;
         int value2 = 12;
         assert(11 == value);
+        int value3;
     }
 
 }
