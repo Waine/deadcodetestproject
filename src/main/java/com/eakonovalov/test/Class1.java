@@ -22,4 +22,10 @@ public class Class1 {
         return v1 < v2 ? -1 : (v1 > v2 ? 1 : 0);
     }
 
+    public void testZipRace() {
+        int value = 11;
+        int value2 = 12;
+        assert(11 == value);
+    }
+
 }
