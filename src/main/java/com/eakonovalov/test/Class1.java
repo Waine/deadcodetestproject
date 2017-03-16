@@ -29,4 +29,8 @@ public class Class1 {
         int value3;
     }
 
+    private void privateMethod() {
+        return;
+    }
+
 }
