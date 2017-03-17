@@ -24,4 +24,16 @@ public class Class2 implements Serializable {
 
     }
 
+    public static String doWorkOnNewTrampoline(final String val) {
+        Collections.sort(new ArrayList<String>(), new Comparator<String>() {
+
+            public int compare(String o1, String o2) {
+                return val.length();
+            }
+
+        });
+
+        return "";
+    }
+
 }
