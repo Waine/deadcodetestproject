@@ -15,6 +15,10 @@ public class Class1 extends Class2 {
     int k1;
     public int l1;
 
+    public NonPublicClass npc = new NonPublicClass();
+
+    private static final String DEADCODE = "";
+
     public int getI() {
         return i;
     }
